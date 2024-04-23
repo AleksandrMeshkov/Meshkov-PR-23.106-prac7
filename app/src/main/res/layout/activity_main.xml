@@ -32,4 +32,20 @@
         tools:layout_editor_absoluteX="151dp"
         tools:layout_editor_absoluteY="60dp" />
 
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="96dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="100dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
